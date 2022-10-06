@@ -1,0 +1,38 @@
+.link {
+    width: 350px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #1a1a1a;
+    box-shadow: 0 8px 16px 4px rgba(0,0,0,.15);
+    color: #bbb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+
+    &__anchor {
+        text-decoration: none;
+        padding: 16px;
+        // border: 1px solid white;
+        flex: 1;
+
+        &:visited {
+            // color: #ccc;
+        }
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+        svg {
+            // border: 1px solid white;
+            // padding: 8px;
+            // font-size: 24px;
+            width: 32px;
+            height: 32px;
+            cursor: pointer;
+        }
+    }
+}

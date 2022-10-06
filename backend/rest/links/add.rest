@@ -1,0 +1,8 @@
+POST http://localhost:5500/api/links/new
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRldGUiLCJpZCI6IjYzM2JmMzlhMWJlMjUyNjc0ZjE0NGZiNCIsImlhdCI6MTY2NDg3NTQ4Nn0.UlkwHuO4jhpRO4k3NKDrRKRQIRQ0zzJdBJuz2d1Y7Xc
+
+{
+    "title": "Pero mira este gatooooo",
+    "url": "https://www.reddit.com/r/IllegallySmolCats/comments/xvdszs/illegally_small_climber_not_oc_just_thought_you/"
+}
